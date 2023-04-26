@@ -1,4 +1,4 @@
-FROM amazoncorretto:17
+FROM amazoncorretto:20
 MAINTAINER mgb
 COPY target/mgb-0.0.1-SNAPSHOT.jar fuentes-app.jar
 ENTRYPOINT ["java","-jar","/fuentes-app.jar"]
